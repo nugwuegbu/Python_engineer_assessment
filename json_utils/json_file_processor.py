@@ -2,8 +2,9 @@ import json
 
 
 class ProcessJson:
-    json_file = None
+    json_file = None  # global variable for input json file
 
+    # Read and check if file exist
     def read_file(self):
         # print(type(self.json_file))
         try:
@@ -13,6 +14,7 @@ class ProcessJson:
             return None
         return data_file
 
+    # Check if file contains json
     def sniff_schema(self):
 
         try:
@@ -35,6 +37,7 @@ class ProcessJson:
 
         return data_type
 
+    # Format attributes for output json
     def capture_attributes(self):
 
         output_data = {}
