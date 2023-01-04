@@ -1,0 +1,1 @@
+{"battle": {"type": "dict", "tag": "", "description": "", "required": false}, "joiner": {"type": "dict", "tag": "", "description": "", "required": false}, "participantIds": {"type": "array", "tag": "", "description": "", "required": false}}
